@@ -1,0 +1,156 @@
+/* basic tags */
+body, pre {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* heading section */
+.big-heading {
+  color: #27abab;
+  text-align: left;
+  font-weight: 900;
+  font-size: 3.4rem;
+  line-height: 1.2;
+}
+
+
+/* navbar section */
+#title {
+  padding: 0 5%;
+  background-color: #66BFBF;
+}
+
+.navbar-brand {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 2.2rem;
+  color: #1e8585;
+  font-weight: bolder;
+  padding-right: 0;
+}
+
+.navbar-brand:hover {
+  color: #1e8585;
+}
+
+.navbar-brand img {
+  width: 5rem;
+}
+
+.nav-link {
+  font-family: "ubuntu", arial;
+  color: #EAF6F6;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  /* mobile me pura 0*/
+}
+
+.nav-link:hover {
+  color: #1e8585;
+}
+
+.dropdown-toggle {
+  margin-right: 4rem;
+  /***************giving margin to login nav item to avoid drop down item out of screen*************/
+}
+
+.dropdown-item {
+  font-size: 1.2rem;
+}
+
+.dropdown-menu a:focus {
+  background-color: #27abab;
+  /* it will change background color of item from(by default) it will not only change for login in dropdown but also other a inside class dropdown-menu*/
+}
+
+
+/* title section */
+#title-info {
+  padding: 4% 5%;
+  background-color: #EAF6F6;
+}
+
+.testimonial-image1, .testimonial-image2 {
+  width: 55%;
+  border-radius: 2%;
+  margin: 10% 20% 15% 30%;
+}
+
+.carousel-control-prev {
+  margin-left: 20%;
+  margin-top: 35%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.carousel-control-next {
+  margin-right: 5%;
+  margin-top: 35%;
+  height: 2rem;
+  width: 2rem;
+}
+
+#testimonials span {
+  color: #27abab;
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+
+
+/* mobile view */
+@media (max-width: 991px) {
+  .testimonial-image1 {
+    margin: 10% 22%;
+  }
+
+  .testimonial-image2 {
+    margin: 10% 22%;
+  }
+
+  .carousel-control-prev {
+    margin-left: 5%;
+  }
+}
+
+
+/* button section */
+.meeting-button {
+  background-color: #27abab;
+  padding: 2% 1.5%;
+}
+
+.meeting-button:hover {
+  background-color: #1e8585;
+}
+
+.meeting-button:focus {
+  /* border: solid #27abab 1px; /* koi fayda nhi h iska*/
+  box-shadow: 1px 1px 20px 0 #27abab;
+}
+.code-inputbox:focus {
+  box-shadow: 1px 1px 20px 0 #27abab;
+  border: none;
+
+}
+
+.meeting-button pre {
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.btn-light {
+  margin-top: 8%;
+  background-color: #fff;
+  color: #8f8f8f;
+  font-weight: 600;
+}
+
+.btn-light:hover {
+  background-color: #27abab;
+  color: #fff;
+}
+
+.input-form {
+  padding: 2% 0;
+}
